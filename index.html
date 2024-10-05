@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+            padding: 0px;
+        }
+        .parent1{
+            background-color: whitesmoke;
+            display: grid;
+            height:10vh;
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            grid-template-columns:1fr 1fr 1fr;
+            font-size: 2em;
+            
+        }
+        .parent1:hover{
+            background-color:grey ;
+            width: 100%;
+            
+        }
+        .parent2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: 200vh;
+            gap:50px;
+        }
+        img{
+            width: 100%;
+        }
+         h3{
+            line-height: 1.2;
+            width:70%;
+            padding: 20px;
+
+         }
+         p{
+            padding: 20px;
+         }
+         .parent3{
+            display: grid;
+            text-align: center;
+            margin: 80px;
+            line-height: 1.5;
+         }
+         .number{
+            display:flex;
+         }
+         .numbers:hover{
+            background-color: black;
+            ;
+         }
+         .parent4{
+            display: flex;
+            
+         }
+         .foot1{
+            width:25%;
+         }
+         .foot2 img{
+            width:10%;
+            
+         }
+         .foot2a{
+            display:flex; 
+         }
+         .foot3{
+            display:flex;
+            flex-wrap: wrap;
+            width: 25%;
+            
+         }
+         .foot2b{
+            display: flex;
+         }
+         span{background-color: grey;  
+         }
+         span:hover{
+            background-color: black;
+            color: white;
+         }
+         .parent4{
+            justify-content: center;
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="parent1">
+          <div><i class="fa-solid fa-bars"></i>
+        </div>
+           <div>my food</div>
+           <div>mail</div>
+    </div>
+    <hr>
+    <div class="parent2" id="parent">
+          <div class="el1"><img src="gridpics/grid1.jpg" alt="" > 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+        
+
+        <div class="el1"><img src="gridpics/grid2.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+
+        <div class="el1"><img src="gridpics/grid3.jpg" alt="">
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+
+
+        <div class="el1"><img src="gridpics/grid4.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+
+        <div class="el1"><img src="gridpics/grid5.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+
+        <div class="el1"><img src="gridpics/grid6.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+
+        <div class="el1"><img src="gridpics/grid7.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+
+
+        <div class="el1"><img src="gridpics/grid8.jpg" alt=""> 
+        <h3>the perfect sandwich, a real nyc classic</h3>
+        <p>just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p></div>
+    
+    </div>
+    <br><br><br>
+    <div class="numbers">
+        <ul>
+            <li> <a href="#parent">&Lt;</a></li>
+            <li> <a href="#parent">1</a></li>
+            <li><a href="#parent">2</a></li>
+            <li><a href="#parent">3</a></li>
+            <li><a href="#parent">4</a></li>
+            <li> <a href="#parent">&Gt;</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="parent3">
+        <h1 class="bl1">About me,The food man</h1>
+        <img src="gridpics/gridchef.jpg" alt="">
+        <h2 class="bl1">i am who i am!</h2>
+        <p>with passin for real,good food</p>
+        <p>
+            Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+        </p>
+    </div>
+    <br><br>
+    <hr>
+    <br><br><br>
+
+    <div class="parent4">
+        <div class="foot1">
+            <h2>Footer</h2>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+             <p>powered  by<a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
+        <div class="foot2">
+            <h1>BLOG POSTS</h1>
+            <div class="foot2a">
+                <img src="gridpics/grid1.jpg" alt="">
+                <div>
+                <p>lorem</p>
+                <p>praeg hdgjgsjk her</p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="foot2b">
+                <img src="gridpics/grid2.jpg" alt="">
+                <div>
+                <p>IPSUM</p>
+                <p>praes tinci sed</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot3">
+            <h1>POPULAR TAGS</h1>
+            <p> <span>travel</span></p>
+            <p><span>new york</span></p>
+            <p><span>dinner</span></p>
+            <p><span>salmon</span></p> <p> <span>travel</span></p>
+            <p><span>new york</span></p>
+            <p><span>dinner</span></p>
+            <p><span>salmon</span></p>
+            <p> <span>travel</span></p>
+            <p><span>new york</span></p>
+            <p><span>dinner</span></p>
+            <p><span>salmon</span></p>
+            <p> <span>travel</span></p>
+            <p><span>new york</span></p>
+            <p><span>dinner</span></p>
+            <p><span>salmon</span></p>
+
+
+        </div>
+    </div>
+    
+
+</body>
+</html>
